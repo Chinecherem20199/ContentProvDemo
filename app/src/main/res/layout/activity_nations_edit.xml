@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="10dp">
+
+	<EditText
+		android:id="@+id/etCountry"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Country Name"
+		android:layout_margin="5dp"/>
+
+	<EditText
+		android:id="@+id/etContinent"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Continent Name"
+		android:layout_margin="5dp"/>
+
+	<Button
+		android:id="@+id/btnUpdate"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Update"
+		android:layout_margin="5dp"/>
+
+	<Button
+		android:id="@+id/btnDelete"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Delete"
+		android:layout_margin="5dp"/>
+
+	<Button
+		android:id="@+id/btnInsert"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Insert"
+		android:layout_margin="5dp"/>
+
+</LinearLayout>
